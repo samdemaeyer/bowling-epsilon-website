@@ -3,7 +3,7 @@ import HomepageCarousel from '../components/HomepageCarousel';
 
 const Homepage = () => (
 	<div>
-    <HomepageCarousel />
+		<HomepageCarousel />
 	</div>
 )
 
