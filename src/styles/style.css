@@ -1,4 +1,7 @@
 @charset "utf-8";
+@import "https://fonts.googleapis.com/css?family=Lato:300,400,700,900";
+@import "fonts/font/flaticon.css";
+
 .btn-2,
 figure {
     cursor: pointer

@@ -8,15 +8,11 @@ export default class MainNavbar extends React.Component {
     super(props);
 
     this.toggle = this.toggle.bind(this);
-    this.state = {
-      isOpen: false
-    };
+    this.state = { isOpen: false };
   }
 
   toggle() {
-    this.setState({
-      isOpen: !this.state.isOpen
-    });
+    this.setState({ isOpen: !this.state.isOpen });
   }
 
   render() {
@@ -32,9 +28,10 @@ export default class MainNavbar extends React.Component {
                       <ul className="menu-logo">
                         <li className="head-info">
                           <a href="index.html"> <img id="logo_img" src="images/logo.png" alt="logo"/></a>
+                          <div className={"menu-mobile-collapse-trigger " + (this.state.isOpen ? 'active' : '')} onClick={this.toggle}><span></span></div>
                         </li>
                       </ul>
-                      <ul className="menu-links">
+                      <ul className="menu-links" style={{display: this.state.isOpen ? 'block' : 'none'}}>
                         <li> 
                           <a className="menu-style menu-li-a active"> HOME <i className="fa fa-angle-down fa-indicator"></i></a>
                           <ul className="drop-down-multilevel">
