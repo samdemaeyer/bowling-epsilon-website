@@ -1,45 +1,41 @@
 import React from "react";
-import Slider from "react-slick";
+import jQuery from 'jquery'; 
 
-const settings = {
-  autoplay:true,
-  autoplaySpeed: 1500,
-  arrows:false,
-  slide:'.slider-pic', 
-  slidesToShow:4,
-  slidesToScroll:1,
-  dots:false,
-  cssEase: 'cubic-bezier(0.250, 0.250, 0.750, 0.750',
-  responsive: [
-  {
-    breakpoint: 1024,
-    settings: {
-      dots: false
-    }
-  }]
+window.$ = window.jQuery = jQuery;
+
+require('../../../node_modules/bxslider/dist/jquery.bxslider.js');
+
+// TODO: name `alt`
+class ImagesAutoSlider extends React.Component {
+  componentDidMount() {
+    window.$(".bxslider").bxSlider({
+      minSlides: 1,
+      maxSlides: 8,
+      slideWidth: 279,
+      slideMargin: 0,
+      ticker: true,
+      speed: 90000
+    });
+  }
+  
+  render() {
+    return (
+      <div>
+        <ul className="bxslider">
+          <li><img src="images/gallery-1.jpg" alt="" /></li>
+          <li><img src="images/gallery-6.jpg" alt="" /></li>
+          <li><img src="images/gallery-2.jpg" alt="" /></li>
+          <li><img src="images/gallery-3.jpg" alt="" /></li>
+          <li><img src="images/gallery-4.jpg" alt="" /></li>
+          <li><img src="images/gallery-5.jpg" alt="" /></li>
+          <li><img src="images/gallery-1.jpg" alt="" /></li>
+          <li><img src="images/gallery-3.jpg" alt="" /></li>
+        </ul>
+      </div>
+    )
+  }
 }
 
-const ImagesAutoSlider = () => (
-  <Slider {...settings}>
-    <div>  
-      <img className="group" src="images/gallery-1.jpg" alt="" />
-    </div>
-    <div>
-      <img className="group" src="images/gallery-2.jpg" alt="" />
-    </div>
-    <div>
-      <img className="group" src="images/gallery-3.jpg" alt="" />
-    </div>
-    <div>  
-      <img className="group" src="images/gallery-4.jpg" alt="" />
-    </div>
-    <div>
-      <img className="group" src="images/gallery-5.jpg" alt="" />
-    </div>
-    <div>
-      <img className="group" src="images/gallery-6.jpg" alt="" />
-    </div>
-  </Slider>
-);
-
 export default ImagesAutoSlider;
+
+
