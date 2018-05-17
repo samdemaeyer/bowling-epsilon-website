@@ -1,9 +1,9 @@
-export function sliderSettings() {
+export default function sliderSettings() {
   return {
     dots: true,
     infinite: true,
-    autoplay:true,
+    autoplay: true,
     autoplaySpeed: 5000,
-    fade: true
-  }
+    fade: true,
+  };
 }
