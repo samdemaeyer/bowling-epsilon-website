@@ -1,4 +1,5 @@
 import React from 'react';
+import { NavLink } from 'react-router-dom';
 
 const ReserveByPhone = () => (
   <div className="container-fluid party-page-call-action-bg">
@@ -12,9 +13,7 @@ const ReserveByPhone = () => (
       </div>
       <div className="col-sm-5 col-md-4 text-center">
         <span className="perspective">
-          <a href="contact.html" className="btn-2 btn-8 btn-8a">
-            Call (+01) 9876543210
-          </a>
+          <NavLink to="/contact" className="btn-2 btn-8 btn-8a">Call (+01) 9876543210</NavLink>
         </span>
       </div>
       <div className="clearfix" />

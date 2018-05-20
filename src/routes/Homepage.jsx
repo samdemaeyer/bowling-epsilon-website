@@ -4,23 +4,23 @@ import HomepageSection1 from '../components/Homepage/Section1';
 import HomepageSection2 from '../components/Homepage/Section2';
 import HomepageSection3 from '../components/Homepage/Section3';
 import HomepageSection4 from '../components/Homepage/Section4';
-import HomepageSection6 from '../components/Homepage/Section6';
-import HomepageSection7 from '../components/Homepage/Section7';
 import Testimonials from '../components/Common/Testimonials';
 import ImagesAutoSlider from '../components/Common/ImagesAutoSlider';
+import GetYourBowlingOn from '../components/Common/GetYourBowlingOn';
 import ContactUs from '../components/Common/ContactUs';
+import Newslatter from '../components/Common/Newsletter';
 
 const Homepage = () => (
   <div>
     <HomepageCarousel />
     <HomepageSection1 />
     <HomepageSection2 />
+    <GetYourBowlingOn />
     <HomepageSection3 />
-    <HomepageSection4 />
     <Testimonials />
     <ImagesAutoSlider />
-    <HomepageSection6 />
-    <HomepageSection7 />
+    <HomepageSection4 />
+    <Newslatter />
     <ContactUs />
   </div>
 );

@@ -1846,7 +1846,7 @@ body {
 }
 
 .contact-page-left-padd {
-    padding: 68px 0
+    padding: 68px 0;
 }
 
 @media(min-width:768px) and (max-width:991px) {

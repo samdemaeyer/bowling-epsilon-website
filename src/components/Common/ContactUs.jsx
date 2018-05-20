@@ -27,13 +27,13 @@ const ContactUs = () => (
           <div className="location">
             <i className="flaticon-clock" aria-hidden="true" />
             <span>
-							Sunday: 11am - 10pm<br />
-							Monday: Private Events<br />
-							Tuesday: 2pm - 10pm<br />
-							Wednesday: 2pm - 10pm<br />
-							Thursday: 2pm - 10pm<br />
-							Friday: 2pm - 12am<br />
-							Saturday: 10am - 12am
+              Sunday: 11am - 10pm<br />
+              Monday: Private Events<br />
+              Tuesday: 2pm - 10pm<br />
+              Wednesday: 2pm - 10pm<br />
+              Thursday: 2pm - 10pm<br />
+              Friday: 2pm - 12am<br />
+              Saturday: 10am - 12am
             </span>
           </div>
         </div>

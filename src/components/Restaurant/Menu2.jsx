@@ -96,7 +96,6 @@ const Menu2 = () => (
         </div>
         <div className="clearfix" />
         <div className="col-md-12 featured highlight">
-
           <span className="box btn-bg">
             <b>FEATURED</b>
           </span>

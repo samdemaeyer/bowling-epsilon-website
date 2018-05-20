@@ -25,9 +25,21 @@ const OurTeam = () => (
                 <div className="team-memb-img-hover text-center">
                   <div className="team-inn">
                     <ul>
-                      <li><a href="#"><i className="fa fa-facebook" aria-hidden="true" /></a></li>
-                      <li><a href="#"><i className="fa fa-twitter" aria-hidden="true" /></a></li>
-                      <li><a href="#"><i className="fa fa-instagram" aria-hidden="true" /></a></li>
+                      <li>
+                        <a href="https://www.facebook.com/" aria-hidden="true">
+                          <i className="fa fa-facebook" aria-hidden="true" />
+                        </a>
+                      </li>
+                      <li>
+                        <a href="https://twitter.com/" aria-hidden="true">
+                          <i className="fa fa-twitter" aria-hidden="true" />
+                        </a>
+                      </li>
+                      <li>
+                        <a href="http://instagram.com/" aria-hidden="true">
+                          <i className="fa fa-instagram" aria-hidden="true" />
+                        </a>
+                      </li>
                     </ul>
                   </div>
                 </div>
@@ -47,14 +59,26 @@ const OurTeam = () => (
             <div className="team-memb">
               <div className="team">
                 <div className="team-memb-img">
-                  <img src="images/team-3.jpg" className="img-responsive" />
+                  <img src="images/team-3.jpg" className="img-responsive" alt="..." />
                 </div>
                 <div className="team-memb-img-hover text-center">
                   <div className="team-inn">
                     <ul>
-                      <li><a href="#"><i className="fa fa-facebook" aria-hidden="true" /></a></li>
-                      <li><a href="#"><i className="fa fa-twitter" aria-hidden="true" /></a></li>
-                      <li><a href="#"><i className="fa fa-instagram" aria-hidden="true" /></a></li>
+                      <li>
+                        <a href="https://www.facebook.com/" aria-hidden="true">
+                          <i className="fa fa-facebook" aria-hidden="true" />
+                        </a>
+                      </li>
+                      <li>
+                        <a href="https://twitter.com/" aria-hidden="true">
+                          <i className="fa fa-twitter" aria-hidden="true" />
+                        </a>
+                      </li>
+                      <li>
+                        <a href="http://instagram.com/" aria-hidden="true">
+                          <i className="fa fa-instagram" aria-hidden="true" />
+                        </a>
+                      </li>
                     </ul>
                   </div>
                 </div>
@@ -79,9 +103,21 @@ const OurTeam = () => (
                 <div className="team-memb-img-hover text-center">
                   <div className="team-inn">
                     <ul>
-                      <li><a href="#"><i className="fa fa-facebook" aria-hidden="true" /></a></li>
-                      <li><a href="#"><i className="fa fa-twitter" aria-hidden="true" /></a></li>
-                      <li><a href="#"><i className="fa fa-instagram" aria-hidden="true" /></a></li>
+                      <li>
+                        <a href="https://www.facebook.com/" aria-hidden="true">
+                          <i className="fa fa-facebook" aria-hidden="true" />
+                        </a>
+                      </li>
+                      <li>
+                        <a href="https://twitter.com/" aria-hidden="true">
+                          <i className="fa fa-twitter" aria-hidden="true" />
+                        </a>
+                      </li>
+                      <li>
+                        <a href="http://instagram.com/" aria-hidden="true">
+                          <i className="fa fa-instagram" aria-hidden="true" />
+                        </a>
+                      </li>
                     </ul>
                   </div>
                 </div>
@@ -106,9 +142,21 @@ const OurTeam = () => (
                 <div className="team-memb-img-hover text-center">
                   <div className="team-inn">
                     <ul>
-                      <li><a href="#"><i className="fa fa-facebook" aria-hidden="true" /></a></li>
-                      <li><a href="#"><i className="fa fa-twitter" aria-hidden="true" /></a></li>
-                      <li><a href="#"><i className="fa fa-instagram" aria-hidden="true" /></a></li>
+                      <li>
+                        <a href="https://www.facebook.com/" aria-hidden="true">
+                          <i className="fa fa-facebook" aria-hidden="true" />
+                        </a>
+                      </li>
+                      <li>
+                        <a href="https://twitter.com/" aria-hidden="true">
+                          <i className="fa fa-twitter" aria-hidden="true" />
+                        </a>
+                      </li>
+                      <li>
+                        <a href="http://instagram.com/" aria-hidden="true">
+                          <i className="fa fa-instagram" aria-hidden="true" />
+                        </a>
+                      </li>
                     </ul>
                   </div>
                 </div>
