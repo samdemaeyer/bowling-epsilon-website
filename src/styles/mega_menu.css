@@ -123,10 +123,10 @@
   color:#FFF;
 }
 .mega-menu .menu-links>li>a.menu-book-table-btn {
-  padding:8px 20px; 
-  line-height:30px; 
-  margin-top:10px; 
-  color:#FFF; 
+  padding:8px 20px;
+  line-height:30px;
+  margin-top:10px;
+  color:#FFF;
   margin-bottom:8px;
 }
 @media screen and (max-width:992px){
@@ -226,7 +226,7 @@
   transition:all .4s;
   font-weight:800
 }
-.mega-menu .menu-links>li>a.active,.mega-menu .menu-links>li>a:hover{
+.mega-menu .menu-links>li>a.active,.mega-menu .menu-links>li>a:not(.menu-book-table-btn):hover{
   color:#b5121b
 }
 @media screen and (max-width:992px){
@@ -436,6 +436,7 @@
   background:0 0;
   display:none;
   position:absolute;
+  border:none;
   top:8px;
   right:0;
   z-index:100;
@@ -493,23 +494,23 @@
   background:#1e2327
 }
 .mega-menu .menu-mobile-collapse-trigger:after{
-  top:27px
+  top:31px
 }
 .mega-menu .menu-mobile-collapse-trigger span{
-  top:20px
+  top:21px
 }
 .mega-menu .menu-mobile-collapse-trigger.active span{
   opacity:0
 }
 .mega-menu .menu-mobile-collapse-trigger.active:before{
-  -webkit-transform:rotate(30deg);
-  -ms-transform:rotate(30deg);
-  transform:rotate(30deg)
+  -webkit-transform:rotate(45deg);
+  -ms-transform:rotate(45deg);
+  transform:rotate(45deg)
 }
 .mega-menu .menu-mobile-collapse-trigger.active:after{
-  -webkit-transform:rotate(-30deg);
-  -ms-transform:rotate(-30deg);
-  transform:rotate(-30deg)
+  -webkit-transform:rotate(-45deg);
+  -ms-transform:rotate(-45deg);
+  transform:rotate(-45deg)
 }
 .mega-menu .drop-down-multilevel{
   margin:0;

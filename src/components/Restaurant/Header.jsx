@@ -5,7 +5,7 @@ const Header = () => (
     <div className="resturant-head-bg-black">
       <div className="container text-center">
         <div className="col-md-offset-4 col-md-4">
-          <img src="images/resturant-header-sec.png" className="img-responsive" />
+          <img src="images/resturant-header-sec.png" className="img-responsive" alt="..." />
         </div>
         <div className="clearfix" />
       </div>

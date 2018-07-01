@@ -1,6 +1,6 @@
 import React from 'react';
 
-const HomepageSection8 = () => (
+const Newsletter = () => (
   <div className="container-fluid newslatter-bg">
     <div className="container">
       <div className="col-md-12 text-center">
@@ -26,4 +26,4 @@ const HomepageSection8 = () => (
   </div>
 );
 
-export default HomepageSection8;
+export default Newsletter;

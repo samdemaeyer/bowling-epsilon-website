@@ -2,12 +2,12 @@ import React from 'react';
 import { NavLink } from 'react-router-dom';
 
 const Header = () => (
-  <div className="container-fluid about-head-bg">
-    <div className="about-head-bg-black">
+  <div className="container-fluid contact-head-bg">
+    <div className="contact-head-bg-black">
       <div className="container text-center">
-        <h2>ABOUT US</h2>
+        <h2>CONTACT</h2>
         <span>
-          <NavLink to="/">HOME &nbsp; &gt;</NavLink> &nbsp; ABOUT US
+          <NavLink to="/">HOME &nbsp; &gt;</NavLink> &nbsp; CONTACT
         </span>
       </div>
     </div>

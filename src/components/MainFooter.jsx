@@ -24,10 +24,26 @@ const MainFooter = () => (
       <div className="clearfix" />
       <div className="col-md-offset-4 col-md-4 social text-center">
         <ul>
-          <li><a href="https://www.facebook.com"><i className="fa fa-facebook" aria-hidden="true" /></a></li>
-          <li><a href="https://twitter.com"><i className="fa fa-twitter" aria-hidden="true" /></a></li>
-          <li><a href="https://www.youtube.com/"><i className="fa fa-youtube" aria-hidden="true" /></a></li>
-          <li><a href="https://www.instagram.com/"><i className="fa fa-instagram" aria-hidden="true" /></a></li>
+          <li>
+            <a href="https://www.facebook.com" aria-hidden="true">
+              <i className="fa fa-facebook" aria-hidden="true" />
+            </a>
+          </li>
+          <li>
+            <a href="https://twitter.com" aria-hidden="true">
+              <i className="fa fa-twitter" aria-hidden="true" />
+            </a>
+          </li>
+          <li>
+            <a href="https://www.youtube.com/" aria-hidden="true">
+              <i className="fa fa-youtube" aria-hidden="true" />
+            </a>
+          </li>
+          <li>
+            <a href="https://www.instagram.com/" aria-hidden="true">
+              <i className="fa fa-instagram" aria-hidden="true" />
+            </a>
+          </li>
         </ul>
       </div>
       <div className="clearfix" />

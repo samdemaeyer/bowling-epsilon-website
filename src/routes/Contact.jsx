@@ -1,8 +1,15 @@
 import React from 'react';
+import Header from '../components/Contact/Header';
+import ContactForm from '../components/Contact/ContactForm';
+import Newsletter from '../components/Common/Newsletter';
+import ContactUs from '../components/Common/ContactUs';
 
 const Contact = () => (
-  <div>
-    <h4>Contact</h4>
+  <div className="contact">
+    <Header />
+    <ContactForm />
+    <Newsletter />
+    <ContactUs />
   </div>
 );
 

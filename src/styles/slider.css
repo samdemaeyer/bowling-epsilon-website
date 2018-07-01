@@ -191,7 +191,7 @@
 .mega-menu .drop-down-multilevel.right-menu{
   right:0
 }
-(.mega-menu .menu-links>li:last-child>a:not(.menu-book-table-btn)){
+.mega-menu .menu-links>li:last-child>a:not(.menu-book-table-btn){
   padding-right:0
 }
 .header-5 .logo img,.mega-menu .menu-logo li img{
@@ -888,7 +888,7 @@
       display:none
   }
 }
-.@media (min-width:768px) and (max-width:992px){
+@media (min-width:768px) and (max-width:992px){
   .slider-def-btn,.button--isi{
       height:auto !important;
        margin-top:12px !important;
