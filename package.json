@@ -2,6 +2,7 @@
   "name": "bowling-epsilon",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://samdemaeyer.github.io/bowling-epsilon-website",
   "dependencies": {
     "bxslider": "^4.2.13",
     "eslint": "^4.19.1",
@@ -15,6 +16,8 @@
     "slick-carousel": "^1.8.1"
   },
   "scripts": {
+    "predeploy": "yarn run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
@@ -24,6 +27,7 @@
     "eslint-config-airbnb": "^16.1.0",
     "eslint-plugin-import": "^2.11.0",
     "eslint-plugin-jsx-a11y": "^6.0.3",
-    "eslint-plugin-react": "^7.8.2"
+    "eslint-plugin-react": "^7.8.2",
+    "gh-pages": "^1.2.0"
   }
 }
